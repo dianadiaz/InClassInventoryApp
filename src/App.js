@@ -34,6 +34,7 @@ class App extends Component {
     var table;
     var rows;
 
+//creating a string representation of the array
 console.log("inventoryArray: " + JSON.stringify(this.state.inventory));
 
 inputForm = <span>
